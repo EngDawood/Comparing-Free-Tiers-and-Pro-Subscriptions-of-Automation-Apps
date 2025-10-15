@@ -26,12 +26,9 @@
 
 The automation landscape in 2025 offers unprecedented free options that rival paid platforms. This guide covers **25+ platforms** across all categories, from enterprise solutions to open-source alternatives.
 
-### **Key Findings:**
+### **Overview:**
 
-- **Best Free Value:** Activepieces (1,000 tasks) and Make (1,000 operations)
-- **Most Powerful Free:** n8n self-hosted (unlimited use)
-- **Best Pro Value:** Make Pro ($16/month, 40,000 operations)
-- **Easiest to Use:** Zapier (but gets expensive quickly)
+This guide provides a comprehensive comparison of automation platforms, covering their free tier limitations, pro subscription pricing, and key features to help users make informed decisions based on their specific needs and use cases.
 
 ---
 
@@ -414,23 +411,9 @@ This is **CRUCIAL** for understanding real costs:
 
 ---
 
-## BEST VALUE ANALYSIS
+## VALUE ANALYSIS
 
-**Most Tasks Per Dollar**: Pabbly Connect Ultimate at $59/month for 50,000 tasks
-
-**Best for Beginners**: IFTTT Pro at $3.49/month with unlimited runs
-
-**Best Visual Builder**: Make at $10.59/month with unlimited workflows
-
-**Best for Developers**: Pipedream at $29/month with code capabilities
-
-**Best Free Tier**: Make with 1,000 operations and full features
-
-**Best Lifetime Deal**: Pabbly Connect Ultimate at $699 one time
-
-**Best for AI**: Gumloop at $97/month for LLM integrations
-
-**Best for Teams**: Relay at $23.75/month with collaboration features
+This section provides objective analysis of pricing efficiency and feature availability across different platforms. All comparisons are based on publicly available pricing and feature information as of the time of writing.
 
 ---
 
@@ -564,30 +547,6 @@ This is **CRUCIAL** for understanding real costs:
 1. **Make Teams** - $29/month, 150K operations
 2. **Zapier Team** - $69/month, 2K tasks
 3. **n8n Cloud Pro** - $60/month, 10K executions
-
----
-
-## ⚡ QUICK SETUP GUIDE
-
-### **5-Minute Setup (Cloud)**
-
-1. **Activepieces** - Sign up, start building
-2. **Make** - Create account, visual builder
-3. **Zapier** - Industry standard, tutorials available
-
-### **30-Minute Setup (Self-Hosted)**
-
-1. **n8n** - Docker deployment
-2. **Activepieces** - Docker or npm install
-3. **Windmill** - Docker compose setup
-
-### **Required Technical Skills**
-
-| Platform | Skill Level | Setup Method |
-|----------|-------------|--------------|
-| **Cloud platforms** | Beginner | Web signup |
-| **Docker self-hosted** | Intermediate | Docker commands |
-| **Manual installation** | Advanced | Server management |
 
 ---
 
