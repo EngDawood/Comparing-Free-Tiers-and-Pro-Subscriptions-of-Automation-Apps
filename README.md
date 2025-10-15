@@ -737,12 +737,9 @@ For questions about contributing or suggestions:
 
 ### **Scenario: Processing 1,000 Orders/Month**
 
-
 # TODO LIST RECOMMENDED
+
 When starting a new task, it is recommended to create a todo list.
-
-
-
 
 1. Include the task_progress parameter in your next tool call
 
@@ -750,19 +747,15 @@ When starting a new task, it is recommended to create a todo list.
 
 3. Use markdown format: - [ ] for incomplete, - [x] for complete
 
-
-
 **Benefits of creating a todo list now:**
 
-	- Clear roadmap for implementation
+- Clear roadmap for implementation
 
-	- Progress tracking throughout the task
+- Progress tracking throughout the task
 
-	- Nothing gets forgotten or missed
+- Nothing gets forgotten or missed
 
-	- Users can see, monitor, and edit the plan
-
-
+- Users can see, monitor, and edit the plan
 
 **Example structure:**
 ```
@@ -779,27 +772,3 @@ When starting a new task, it is recommended to create a todo list.
 
 - [ ] Verify results
 ```
-
-
-
-Keeping the todo list updated helps track progress and ensures nothing is missed.
-<environment_details>
-# Visual Studio Code Visible Files
-README.md
-
-# Visual Studio Code Open Tabs
-README.md
-
-# Recently Modified Files
-These files have been modified since you last accessed them (file was just edited so you may need to re-read it before editing):
-README.md
-
-# Current Time
-10/16/2025, 1:46:28 AM (Asia/Riyadh, UTC+3:00)
-
-# Context Window Usage
-105,959 / 256K tokens used (41%)
-
-# Current Mode
-ACT MODE
-</environment_details>
