@@ -67,7 +67,7 @@ Key themes to track in 2025:
 | Platform | Free limit | Multi-step | Highlights |
 |----------|------------|------------|------------|
 | **[Zapier](https://zapier.com/)** | 100 tasks/month | ❌ No | Largest connector catalog |
-| **[Make](https://www.make.com/)** | 1,000 operations/month | ✅ Yes | Visual builder with routers |
+| **[Make](https://www.make.com/en/)** | 1,000 operations/month | ✅ Yes | Visual builder with routers |
 | **[Power Automate](https://powerautomate.microsoft.com/)** | 750 runs/month | ✅ Yes | Microsoft 365 connectors |
 | **[n8n](https://n8n.io/)** (self-hosted) | Unlimited | ✅ Yes | Self-hosted, unlimited executions |
 | **[Pipedream](https://pipedream.com/)** | ~300 credits/month | ✅ Yes | Code-first workflows and events |
@@ -90,9 +90,9 @@ Key themes to track in 2025:
 
 | Platform | Entry price | Included usage | Differentiator |
 |----------|-------------|----------------|----------------|
-| **[Make Core](https://www.make.com/)** | $9/month | 10,000 operations | Unlimited scenarios |
-| **[Make Pro](https://www.make.com/)** | $16/month | 40,000 operations | Priority throughput |
-| **[Make Teams](https://www.make.com/)** | $29/month | 150,000 operations | Collaboration toolset |
+| **[Make Core](https://www.make.com/en/)** | $9/month | 10,000 operations | Unlimited scenarios |
+| **[Make Pro](https://www.make.com/en/)** | $16/month | 40,000 operations | Priority throughput |
+| **[Make Teams](https://www.make.com/en/)** | $29/month | 150,000 operations | Collaboration toolset |
 | **[Zapier Professional](https://zapier.com/)** | $19.99/month | 750 tasks | Multi-step + premium apps |
 | **[Zapier Team](https://zapier.com/)** | $69/month | 2,000 tasks | Shared folders and SSO |
 | **[IFTTT Pro](https://ifttt.com/)** | $5/month | 20 applets | Faster polling cadence |
@@ -111,51 +111,122 @@ Key themes to track in 2025:
 
 ### Traditional automation platforms
 
-| Platform | Free allocation | Workflow cap | Notable strengths | Integration scope |
-|----------|-----------------|--------------|-------------------|-------------------|
-| **Zapier** | 100 tasks/month | 5 single-step Zaps | Massive connector library | 7,000+ apps |
-| **IFTTT** | Unlimited runs | 2 applets | Consumer and IoT friendly | 600+ services |
-| **Make** | 1,000 operations | 2 active scenarios | Visual routing, scheduling | 1,700+ apps |
-| **Microsoft Power Automate** | 750 runs | Unlimited | Microsoft 365 native triggers | 1,000+ connectors |
-| **Automate.io** | 300 actions | 5 bots | Easy-to-learn builder | 100+ integrations |
-| **Zoho Flow** | 200 tasks | 10 flows | Seamless Zoho linkage | 700+ integrations |
+#### Zapier
+
+- Free allocation: 100 tasks per month
+- Workflow cap: 5 single-step Zaps
+- Standout: Broadest connector marketplace (7,000+ apps)
+
+#### IFTTT
+
+- Free allocation: Unlimited runs
+- Workflow cap: 2 active applets
+- Standout: Consumer and IoT friendly library of 600+ services
+
+#### Make
+
+- Free allocation: 1,000 operations
+- Workflow cap: 2 active scenarios
+- Standout: Visual routing, scheduling, and advanced logic
+
+#### Microsoft Power Automate
+
+- Free allocation: 750 runs (with qualifying Microsoft 365 plan)
+- Workflow cap: Unlimited flows
+- Standout: Deep Microsoft 365 connector coverage (1,000+ connectors)
+
+#### Automate.io
+
+- Free allocation: 300 actions
+- Workflow cap: 5 bots
+- Standout: Accessible drag-and-drop builder for SMB workflows
+
+#### Zoho Flow
+
+- Free allocation: 200 tasks
+- Workflow cap: 10 flows
+- Standout: Seamless integration across the Zoho SaaS ecosystem
 
 ### Budget-friendly freemium challengers
 
-| Platform | Free allocation | Workflow cap | Distinguishing feature | Notes |
-|----------|-----------------|--------------|------------------------|-------|
-| **Pabbly Connect** | 100 tasks | Unlimited | Internal steps free | Full feature access |
-| **Integrately** | 100 tasks | Limited | One-click automations | Triggers excluded from quota |
-| **Pipedream** | 3 workflows, 100 invocations | 100 events/day | Serverless code steps | 2 million credit ceiling |
-| **Albato** | 100 transactions | Limited | Run-based billing | 14-day full-feature trial |
-| **Latenode** | 1,000 credits | Unlimited | Low-code + code hybrid | Credits reset monthly |
+#### Pabbly Connect
+
+- Free allocation: 100 tasks
+- Workflow cap: Unlimited automations
+- Standout: Internal steps are unmetered while core features stay unlocked
+
+#### Integrately
+
+- Free allocation: 100 tasks
+- Workflow cap: Limited (varies by recipe)
+- Standout: One-click automations with triggers excluded from task quota
+
+#### Pipedream
+
+- Free allocation: 3 workflows and ~100 daily invocations
+- Workflow cap: 100 events per day before throttling
+- Standout: Serverless JavaScript/TypeScript steps plus 2 million monthly credits
+
+#### Albato
+
+- Free allocation: 100 transactions
+- Workflow cap: Limited concurrent automations
+- Standout: Run-based billing with a 14-day full-featured trial
+
+#### Latenode
+
+- Free allocation: 1,000 credits
+- Workflow cap: Unlimited executions
+- Standout: Hybrid low-code and code-first editor with monthly credit reset
 
 ### AI-focused automation
 
-| Platform | Free allocation | Workflow cap | Highlights | Limitation |
-|----------|-----------------|--------------|------------|------------|
-| **Wordware.ai** | $5 usage credit | Unlimited | Cloud IDE, shareable apps | Public flows on free plan |
-| **Gumloop** | Community tier | Limited | Hosted LLM actions | Premium models locked |
-| **Bardeen** | 100 credits | Unlimited | Browser-native actions | Credit-based runtime |
+#### Wordware.ai
+
+- Free allocation: $5 in monthly usage credit
+- Workflow cap: Unlimited flows while credit lasts
+- Standout: Cloud IDE and shareable AI applications (public flows on free plan)
+
+#### Gumloop
+
+- Free allocation: Community tier access
+- Workflow cap: Limited by template allowances
+- Standout: Hosted LLM actions without managing model infrastructure
+
+#### Bardeen
+
+- Free allocation: 100 credits
+- Workflow cap: Unlimited playbooks while credits remain
+- Standout: Browser-native automation ideal for research and scraping
 
 ### Team collaboration automation
 
-| Platform | Free allocation | Workflow cap | Highlights | Notes |
-|----------|-----------------|--------------|------------|-------|
-| **Relay** | Starter plan | Limited | Human-in-the-loop approvals | Task assignments built in |
-| **Activepieces** (self-hosted) | Unlimited | Unlimited | Open source + managed option | Docker-based deployment |
-| **Windmill** (self-hosted) | Unlimited | Unlimited | Python, JS, Go, and SQL steps | GitOps friendly |
+#### Relay
+
+- Free allocation: Starter plan (invite-based)
+- Workflow cap: Limited shared runbooks
+- Standout: Human-in-the-loop approvals with task assignments
+
+#### Activepieces (self-hosted)
+
+- Free allocation: Unlimited tasks (self-managed infrastructure)
+- Workflow cap: Unlimited flows
+- Standout: Open-source stack with optional hosted upgrade
+
+#### Windmill (self-hosted)
+
+- Free allocation: Unlimited executions (self-managed infrastructure)
+- Workflow cap: Unlimited
+- Standout: Python, JavaScript, Go, and SQL steps with GitOps workflow
 
 ### No permanent free tier
 
-| Platform | Trial length | Key takeaways |
-|----------|--------------|---------------|
-| **Workato** | Custom demos only | Enterprise automation fabric |
-| **Tray.io** | Request access | Enterprise-grade API integration |
-| **SnapLogic** | Custom proof of concept | Data-driven automation |
-| **MuleSoft** | Trial environments | Enterprise API management |
-| **Boomi** | Limited trial | Hybrid integration platform |
-| **n8n Cloud** | 14-day trial | Full feature access during trial |
+- **Workato:** Enterprise automation fabric offered via custom demos only.
+- **Tray.io:** Request-based access tailored to enterprise API integration.
+- **SnapLogic:** Custom proof-of-concept engagements for data automation.
+- **MuleSoft:** Trial environments focused on API-led connectivity.
+- **Boomi:** Limited trials emphasising hybrid integration deployments.
+- **n8n Cloud:** 14-day fully featured trial; ongoing usage requires subscription.
 
 ---
 
