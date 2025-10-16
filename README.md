@@ -461,6 +461,38 @@ Key themes to track in 2025:
   double usage.
 - Combine monitoring and alerting to avoid overruns during peak demand.
 
+### Free webhook availability snapshot
+
+- **Make:** ✔️ Custom webhook triggers and modules are included on the free
+  1,000-operations plan.
+- **n8n (self-hosted):** ✔️ Unlimited webhooks because the OSS build exposes
+  HTTP and REST endpoints by default.
+- **Pipedream:** ✔️ HTTP triggers and REST endpoints remain available on the
+  free tier (subject to daily event quotas).
+- **Activepieces:** ✔️ Free plan users can capture inbound webhooks alongside
+  other triggers.
+- **IFTTT:** ✔️ The Webhooks service works on the free tier, but you are capped
+  at two active applets.
+- **Zoho Flow:** ✔️ Free organisations can fire webhook triggers, though rate
+  limits apply.
+- **Pabbly Connect:** ✔️ Every workflow can start with a webhook while staying
+  within the 100-task allowance.
+- **Windmill (self-hosted):** ✔️ HTTP triggers are unrestricted when you manage
+  the runtime yourself.
+- **Huginn:** ✔️ Agent endpoints act as webhooks with no metering beyond your
+  server resources.
+- **Zapier:** ❌ Webhooks by Zapier is a premium app and needs a paid plan.
+- **Microsoft Power Automate:** ❌ HTTP request triggers sit behind premium
+  connectors.
+- **Bardeen:** ❌ No inbound webhooks; automation executes inside the browser.
+- **OttoKit:** ❌ Focuses on WordPress events and does not expose general web
+  hooks.
+- **Automate.io:** ⚠️ Platform discontinued (September 2022); webhook support
+  no longer available.
+
+> **Tip:** Providers adjust webhook access frequently—check the pricing or
+> quota page before committing critical workflows.
+
 ---
 
 ## 📊 Complete platform directory
