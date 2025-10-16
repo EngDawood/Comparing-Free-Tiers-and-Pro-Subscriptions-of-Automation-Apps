@@ -471,8 +471,6 @@ Key themes to track in 2025:
   subject to daily event quotas.
 - **Activepieces:** ✔️ Captures inbound webhooks on the free SaaS plan in
   addition to scheduled triggers.
-- **IFTTT:** ✔️ The Webhooks service remains available, but only two applets can
-  be active.
 - **Zoho Flow:** ✔️ Webhook triggers fire on the free tier, although rate limits
   apply.
 - **Pabbly Connect:** ✔️ Every workflow can start with a webhook inside the
@@ -494,6 +492,8 @@ Key themes to track in 2025:
 - **Zapier:** ❌ Webhooks by Zapier is a premium app that requires a paid plan.
 - **Microsoft Power Automate:** ❌ HTTP request triggers sit behind premium
   connector licensing.
+- **IFTTT:** ❌ The Webhooks (formerly Maker) service needs a Pro subscription;
+  free users cannot create webhook-triggered applets.
 - **Bardeen:** ❌ Browser-focused automation; no inbound webhook support.
 - **OttoKit:** ❌ WordPress-specific triggers only; no generic webhooks.
 - **Automate.io:** ⚠️ Service discontinued in 2022; webhook support is no
