@@ -71,7 +71,7 @@ Key themes to track in 2025:
 | **[Power Automate](https://powerautomate.microsoft.com/)** | 750 runs/month | ✅ Yes | Microsoft 365 connectors |
 | **[n8n](https://n8n.io/)** (self-hosted) | Unlimited | ✅ Yes | Self-hosted, unlimited executions |
 | **[Pipedream](https://pipedream.com/)** | ~300 credits/month | ✅ Yes | Code-first workflows and events |
-| **[Activepieces](https://www.activepieces.com/)** ⭐ | 1,000 tasks/month | ✅ Yes | AI blocks plus open-source option |
+| **[Activepieces](https://www.activepieces.com/)**  | 1,000 tasks/month | ✅ Yes | AI blocks plus open-source option |
 | **[IFTTT](https://ifttt.com/)** | 5 active applets | ❌ No | Consumer and IoT automations |
 | **[Zoho Flow](https://www.zoho.com/flow/)** | 200 tasks/month | ✅ Yes | Tight Zoho suite integration |
 | **[Pabbly Connect](https://www.pabbly.com/connect/)** | 100 tasks/month | ✅ Yes | Internal steps do not count |
@@ -234,67 +234,187 @@ Key themes to track in 2025:
 
 ### Entry-level plans
 
-| Plan | Price (USD) | Included usage | Highlights | Best for |
-|------|-------------|----------------|------------|----------|
-| **Zapier Professional** | $19.99/month | 750 tasks | Multi-step, filters, formatters | Early-stage business automation |
-| **Make Core** | $9/month | 10,000 operations | Unlimited scenarios, visual builder | Budget-conscious tinkerers |
-| **IFTTT Pro** | $5/month | 20 applets | Applet queries, faster sync | Personal power users |
-| **Zoho Flow Professional** | $10/month | 10,000 tasks | Custom functions, webhook triggers | Zoho-first teams |
-| **Automate.io Professional** | $14.99/month | 5,000 actions | Unlimited bots, rich conditions | SMB workflows |
+#### Zapier Professional
+
+- Price: $19.99 per month
+- Included usage: 750 tasks
+- Highlights: Multi-step flows, filters, and formatters unlocked
+- Best for: Early-stage teams needing reliable automations
+
+#### Make Core
+
+- Price: $9 per month
+- Included usage: 10,000 operations
+- Highlights: Unlimited scenarios inside a visual builder
+- Best for: Budget-conscious makers who want flexibility
+
+#### IFTTT Pro
+
+- Price: $5 per month
+- Included usage: 20 applets
+- Highlights: Applet queries and faster sync intervals
+- Best for: Power users automating personal workflows
+
+#### Zoho Flow Professional
+
+- Price: $10 per month
+- Included usage: 10,000 tasks
+- Highlights: Custom functions and webhook triggers
+- Best for: Organisations anchored in the Zoho ecosystem
+
+#### Automate.io Professional
+
+- Price: $14.99 per month
+- Included usage: 5,000 actions
+- Highlights: Unlimited bots with rich conditional logic
+- Best for: SMB workflows that favour simplicity
 
 ### Mid-range plans
 
-| Plan | Price (USD) | Included usage | Highlights | Best for |
-|------|-------------|----------------|------------|----------|
-| **Make Pro** | $16/month | 40,000 operations | Priority execution, error handling | Scaling automation teams |
-| **Pabbly Connect Standard** | $14–19/month | 12,000 tasks | Schedulers, routers, formatters | Multi-brand operators |
-| **Integrately Basic** | $19.99/month | 2,000 tasks | 20M prebuilt automations | Ecommerce-focused automation |
-| **Pipedream Basic** | $29/month | 2,000 invocations | 30-day history, custom domains | Developer-centric integrations |
-| **Albato Starter** | $15–16/month | 2,000 transactions | Transaction-based pricing | Data sync between SaaS apps |
+#### Make Pro
+
+- Price: $16 per month
+- Included usage: 40,000 operations
+- Highlights: Priority execution and advanced error handling
+- Best for: Teams scaling automation volume across brands
+
+#### Pabbly Connect Standard
+
+- Price: $14–19 per month (depends on billing term)
+- Included usage: 12,000 tasks
+- Highlights: Schedulers, routers, and formatters included
+- Best for: Multi-brand operators seeking predictable costs
+
+#### Integrately Basic
+
+- Price: $19.99 per month
+- Included usage: 2,000 tasks
+- Highlights: 20 million prebuilt automations and one-click setup
+- Best for: Ecommerce stores automating storefront operations
+
+#### Pipedream Basic
+
+- Price: $29 per month
+- Included usage: 2,000 invocations
+- Highlights: 30-day history, custom domains, and developer tooling
+- Best for: Engineering-led teams integrating APIs
+
+#### Albato Starter
+
+- Price: $15–16 per month
+- Included usage: 2,000 transactions
+- Highlights: Transaction-based pricing for predictable billing
+- Best for: SaaS-to-SaaS data synchronisation
 
 ### Premium plans
 
-| Plan | Price (USD) | Included usage | Highlights | Best for |
-|------|-------------|----------------|------------|----------|
-| **Make Teams** | $29/month | 150,000 operations | Team workspaces, bundles | Cross-functional teams |
-| **Pabbly Connect Ultimate** | $59–79/month | 50,000–3.2M tasks | JS/Python modules, retries | High-volume operations |
-| **Pipedream Advanced** | $49/month | 2,000 invocations | 50M credits, team seats | Engineering organisations |
-| **Pipedream Connect** | $99/month | 10,000 invocations | Infrastructure controls | API-first businesses |
+#### Make Teams
+
+- Price: $29 per month
+- Included usage: 150,000 operations
+- Highlights: Team workspaces, bundles, and collaboration controls
+- Best for: Cross-functional teams sharing automation assets
+
+#### Pabbly Connect Ultimate
+
+- Price: $59–79 per month
+- Included usage: 50,000 to 3.2 million tasks
+- Highlights: JavaScript/Python modules and automatic retries
+- Best for: High-volume operations needing custom logic
+
+#### Pipedream Advanced
+
+- Price: $49 per month
+- Included usage: 2,000 invocations (with 50M credits)
+- Highlights: Team seats and deeper infrastructure controls
+- Best for: Engineering organisations deploying event-driven flows
+
+#### Pipedream Connect
+
+- Price: $99 per month
+- Included usage: 10,000 invocations
+- Highlights: Enterprise-grade controls plus expanded workflows
+- Best for: API-first businesses with strict governance
 
 ### AI-focused plans
 
-| Plan | Price (USD) | Included usage | Highlights | Best for |
-|------|-------------|----------------|------------|----------|
-| **Wordware.ai Builder** | $69/month | 1.3× model costs | Private apps, audit logs | AI automation product teams |
-| **Gumloop Pro** | $97/month | Model-dependent | Enterprise security, orchestration | AI-first automation |
-| **Lindy Basic** | $49.99/month | Model-dependent | AI assistants, email automation | RevOps and sales teams |
+#### Wordware.ai Builder
+
+- Price: $69 per month
+- Included usage: 1.3× model costs in platform credits
+- Highlights: Private app hosting and audit logging
+- Best for: AI automation product teams
+
+#### Gumloop Pro
+
+- Price: $97 per month
+- Included usage: Model-dependent allowances
+- Highlights: Enterprise security and orchestration for LLM actions
+- Best for: AI-first automation builders
+
+#### Lindy Basic
+
+- Price: $49.99 per month
+- Included usage: Model-dependent allowances
+- Highlights: AI assistants, inbox automation, and workflow chaining
+- Best for: Revenue and sales teams automating outreach
 
 ### Team collaboration plans
 
-| Plan | Price (USD) | Included usage | Highlights | Best for |
-|------|-------------|----------------|------------|----------|
-| **Relay Basic** | $23.75/month | Task-based | Approvals, assignments, SLAs | Human-in-the-loop operations |
-| **n8n Cloud Pro** | $60/month | 10,000 executions | RBAC, audit logs, SSO | Product and growth teams |
-| **Microsoft Power Automate Premium** | $15/user/month | 15,000 runs | Premium connectors, AI Builder | Microsoft-first enterprises |
+#### Relay Basic
+
+- Price: $23.75 per month
+- Included usage: Task-based metering
+- Highlights: Approvals, assignments, and SLA tracking
+- Best for: Human-in-the-loop operations
+
+#### n8n Cloud Pro
+
+- Price: $60 per month
+- Included usage: 10,000 executions
+- Highlights: Role-based access, audit logs, and SSO
+- Best for: Product and growth teams sharing automations
+
+#### Microsoft Power Automate Premium
+
+- Price: $15 per user per month
+- Included usage: 15,000 runs
+- Highlights: Premium connectors plus AI Builder access
+- Best for: Microsoft-first enterprises
 
 ### Lifetime value plans
 
-| Plan | Price (USD) | Included usage | Highlights | Best for |
-|------|-------------|----------------|------------|----------|
-| **Pabbly Connect Lifetime Standard** | $249 one-time | 3,000 tasks/month | 2-step automations | Solo operators |
-| **Pabbly Connect Lifetime Pro** | $499 one-time | 6,000 tasks/month | 20 workflows | Scaling small businesses |
-| **Pabbly Connect Lifetime Ultimate** | $699 one-time | 10,000 tasks/month | Unlimited workflows | Long-term automation estates |
+#### Pabbly Connect Lifetime Standard
+
+- Price: $249 one-time
+- Included usage: 3,000 tasks per month
+- Highlights: Two-step automations without recurring fees
+- Best for: Solo operators committed to long-term automation
+
+#### Pabbly Connect Lifetime Pro
+
+- Price: $499 one-time
+- Included usage: 6,000 tasks per month
+- Highlights: Twenty workflows with ongoing updates included
+- Best for: Scaling small businesses avoiding subscriptions
+
+#### Pabbly Connect Lifetime Ultimate
+
+- Price: $699 one-time
+- Included usage: 10,000 tasks per month
+- Highlights: Unlimited workflows plus full feature access
+- Best for: Long-term automation estates with predictable needs
 
 ### Enterprise-only offers
 
-| Platform | Entry point | Highlights |
-|----------|-------------|------------|
-| **Workato** | ~$10,000/year | Enterprise automation fabric |
-| **Tray.io** | ~$500/month | Low-code + developer tooling |
-| **SnapLogic** | Custom | Data-driven integration |
-| **MuleSoft** | Custom | API-led connectivity |
-| **Boomi** | Custom | Hybrid integration platform |
-| **Jitterbit** | Custom | Data integration specialist |
+- **Workato:** Starts around $10,000 per year and targets enterprise automation fabric
+  initiatives.
+- **Tray.io:** Begins near $500 per month and blends low-code tooling with developer
+  features.
+- **SnapLogic:** Custom pricing focused on data-driven integration programmes.
+- **MuleSoft:** Custom pricing tailored for API-led connectivity rollouts.
+- **Boomi:** Custom pricing with emphasis on hybrid integration deployments.
+- **Jitterbit:** Custom pricing positioned for data integration specialists.
 
 ---
 
