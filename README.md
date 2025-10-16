@@ -36,20 +36,20 @@ This guide provides a comprehensive comparison of automation platforms, covering
 
 | Platform | Monthly Limit | Key Features | Multi-Step | Best For |
 |----------|---------------|--------------|------------|----------|
-| **[Activepieces](https://www.activepieces.com/)** ⭐ | 1,000 tasks | All features, 2 flows | ✅ Yes | Teams wanting Zapier-like UI |
-| **[Make](https://www.make.com/)** | 1,000 operations | Visual builder, 2 scenarios | ✅ Yes | Visual workflow builders |
-| **[n8n](https://n8n.io/)** (self-hosted) | **Unlimited** | Full features, 500+ integrations | ✅ Yes | Developers, unlimited needs |
-| **[Huginn](https://github.com/huginn/huginn)** | **Unlimited** | Web scraping specialist | ✅ Yes | Privacy-focused monitoring |
-| **[Windmill](https://www.windmill.dev/)** (self-hosted) | **Unlimited** | Multi-language support | ✅ Yes | Developer workflows |
 | **[Zapier](https://zapier.com/)** | 100 tasks | Industry standard | ❌ No | Beginners testing automation |
-| **[Pipedream](https://pipedream.com/)** | ~300 credits | Code-first approach | ✅ Yes | API integrations |
-| **[Pabbly Connect](https://www.pabbly.com/connect/)** | 100 tasks | Unlimited internal steps | ✅ Yes | Complex internal workflows |
-| **[OttoKit](https://www.ottokit.com/)** | 250 tasks | WordPress-focused | ✅ Yes | WordPress users |
-| **[IFTTT](https://ifttt.com/)** | 5 applets | 900+ services | ❌ No | Personal/smart home use |
-| **[Bardeen](https://www.bardeen.ai/)** | 100 credits | Browser automation | ✅ Yes | Web scraping tasks |
+| **[Make](https://www.make.com/)** | 1,000 operations | Visual builder, 2 scenarios | ✅ Yes | Visual workflow builders |
 | **[Microsoft Power Automate](https://powerautomate.microsoft.com/)** | 750 runs | Office 365 integration | ✅ Yes | Microsoft ecosystem users |
-| **[Automate.io](https://automate.io/)** | 300 actions | Simple workflows | ✅ Yes | Small business automation |
+| **[n8n](https://n8n.io/)** (self-hosted) | **Unlimited** | Full features, 500+ integrations | ✅ Yes | Developers, unlimited needs |
+| **[Pipedream](https://pipedream.com/)** | ~300 credits | Code-first approach | ✅ Yes | API integrations |
+| **[Activepieces](https://www.activepieces.com/)** ⭐ | 1,000 tasks | All features, 2 flows | ✅ Yes | Teams wanting Zapier-like UI |
+| **[IFTTT](https://ifttt.com/)** | 5 applets | 900+ services | ❌ No | Personal/smart home use |
 | **[Zoho Flow](https://www.zoho.com/flow/)** | 200 tasks | Zoho ecosystem | ✅ Yes | Zoho users |
+| **[Pabbly Connect](https://www.pabbly.com/connect/)** | 100 tasks | Unlimited internal steps | ✅ Yes | Complex internal workflows |
+| **[Bardeen](https://www.bardeen.ai/)** | 100 credits | Browser automation | ✅ Yes | Web scraping tasks |
+| **[Windmill](https://www.windmill.dev/)** (self-hosted) | **Unlimited** | Multi-language support | ✅ Yes | Developer workflows |
+| **[Huginn](https://github.com/huginn/huginn)** | **Unlimited** | Web scraping specialist | ✅ Yes | Privacy-focused monitoring |
+| **[OttoKit](https://www.ottokit.com/)** | 250 tasks | WordPress-focused | ✅ Yes | WordPress users |
+| **[Automate.io](https://automate.io/)** | 300 actions | Simple workflows | ✅ Yes | Small business automation |
 
 ---
 
