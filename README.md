@@ -111,7 +111,7 @@ Key themes to track in 2025:
 
 ### Traditional automation platforms
 
-#### Zapier
+### Zapier (tasks)
 
 - Free allocation: 100 tasks per month
 - Workflow cap: 5 single-step Zaps
@@ -123,7 +123,7 @@ Key themes to track in 2025:
 - Workflow cap: 2 active applets
 - Standout: Consumer and IoT friendly library of 600+ services
 
-#### Make
+### Make (operations)
 
 - Free allocation: 1,000 operations
 - Workflow cap: 2 active scenarios
@@ -420,18 +420,45 @@ Key themes to track in 2025:
 
 ## 🤔 Understanding usage metrics
 
-| Platform | Usage metric | What counts | Billing nuance | Example calculation |
-|----------|--------------|-------------|----------------|---------------------|
-| **Zapier** | Tasks | Successful action steps | Triggers are free | 4 actions × 100 leads = 400 tasks |
-| **Make** | Operations | Every module run | Polling and routers billable | 5 modules × 100 leads = 500 operations |
-| **n8n** | Executions | Full workflow run | Unlimited nodes per run | 1 execution covers entire workflow |
-| **Power Automate** | Runs | Each flow execution | Premium connectors add cost | 100 flows = 100 runs |
-| **Pipedream** | Invocations + credits | Workflow runs + compute | Background compute uses credits | 100 runs × 2M credits cap |
+- **Zapier (tasks)**
+  - Usage metric: Tasks
+  - What counts: Successful action steps
+  - Billing nuance: Triggers remain free; only completed actions consume tasks
+  - Example: Four actions processed for 100 leads = 400 tasks
+
+- **Make (operations)**
+  - Usage metric: Operations
+  - What counts: Every module run, including triggers, routers, and error handlers
+  - Billing nuance: Polling the same scenario multiple times consumes operations
+    quickly
+  - Example: Five modules for 100 leads = 500 operations
+
+- **n8n (executions)**
+  - Usage metric: Executions
+  - What counts: Each full workflow run regardless of node count
+  - Billing nuance: Unlimited steps per execution; retries count as new executions
+  - Example: A 50-node workflow for 10,000 records = 10,000 executions
+
+- **Microsoft Power Automate (runs)**
+  - Usage metric: Runs
+  - What counts: Every flow execution, whether scheduled or event triggered
+  - Billing nuance: Premium connectors and robotic process automation add
+    surcharges
+  - Example: 100 triggered flows = 100 runs
+
+- **Pipedream (invocations and credits)**
+  - Usage metric: Invocations plus credits
+  - What counts: Workflow runs consume invocations; compute time drains credits
+  - Billing nuance: Background tasks and long-running code draw down the 2M credit
+    pool
+  - Example: 100 runs with moderate compute stays within the 2M-credit allowance
 
 ### Takeaways
 
-- Map your process into discrete steps, then simulate the billing unit before migrating.
-- Evaluate retry and error-handling policies—automatic retries can silently double usage.
+- Map your process into discrete steps, then simulate the billing unit before
+  migrating.
+- Evaluate retry and error-handling policies—automatic retries can silently
+  double usage.
 - Combine monitoring and alerting to avoid overruns during peak demand.
 
 ---
@@ -483,38 +510,106 @@ Key themes to track in 2025:
 
 ### 🎯 Niche specialists
 
-| Platform | Specialty | Free access |
-|----------|-----------|-------------|
-| **AutomatorWP** | WordPress automation | Free core plugin |
-| **LangChain + LangFlow** | AI agent orchestration | Free self-hosted |
-| **Node-RED** | IoT device automation | Free self-hosted |
-| **Bardeen** | Browser/RPA automation | 100 credits/month |
-| **Temporal** | Durable workflow engine | Free OSS |
-| **Conductor** | Microservice orchestration | Free OSS |
-| **Zeebe** | Workflow engine (BPMN) | Free OSS |
+#### AutomatorWP (WordPress)
+
+- Specialty: WordPress-native automation builder
+- Free access: Core plugin is free; paid packs add WooCommerce, LMS, and CRM
+  triggers
+- Why it matters: Ideal for site owners who want workflow control without
+  leaving WordPress
+
+#### LangChain + LangFlow (AI orchestration)
+
+- Specialty: Visual orchestration for LangChain-based AI agents
+- Free access: Self-hosted edition is MIT licensed
+- Why it matters: Lets technical teams prototype conversational automations
+  rapidly
+
+#### Node-RED (IoT)
+
+- Specialty: IoT device automation and hardware integrations
+- Free access: Entirely open source with a large module ecosystem
+- Why it matters: Drag-and-drop flows bridge physical sensors with cloud
+  services
+
+#### Bardeen (browser automation)
+
+- Specialty: Browser automation and RPA-style scraping
+- Free access: 100 monthly credits on the free plan
+- Why it matters: Automates repetitive research and data capture tasks
+  directly in the browser
+
+#### Temporal (durable workflows)
+
+- Specialty: Durable workflow orchestration via code-first APIs
+- Free access: Open source server plus hosted cloud tiers
+- Why it matters: Provides resilience and retries for mission-critical
+  automations
+
+#### Conductor (microservice orchestration)
+
+- Specialty: Microservice orchestration originally built at Netflix
+- Free access: Open source server deployable on-prem
+- Why it matters: Large organisations can coordinate distributed services with human
+  checkpoints
+
+#### Zeebe (BPMN)
+
+- Specialty: BPMN-compliant workflow engine (via Camunda stack)
+- Free access: Open source with commercial support available
+- Why it matters: Suitable for regulated industries needing formal process
+  diagrams
 
 ### 🌟 Emerging platforms
 
-| Platform | Focus | Notable features |
-|----------|-------|------------------|
-| **Lindy.ai** | AI-powered assistance | 400 tasks free, natural language |
-| **Blotato** | AI automation | End-to-end AI playbooks |
-| **DeepSeek** | AI model integration | High-performance models |
-| **Dagster** | Data orchestration | Asset-based automation |
-| **Prefect Cloud** | Workflow orchestration | Generous free developer tier |
+#### Lindy.ai (AI assistant)
+
+- Focus: AI-powered executive assistant for operations and sales
+- Notable features: Natural language instructions, 400 free tasks, calendar
+  and inbox integrations
+- Best suited for: RevOps teams experimenting with AI co-workers
+
+#### Blotato (AI playbooks)
+
+- Focus: AI automation builder for end-to-end playbooks
+- Notable features: Prebuilt AI recipes, human escalation, and shared
+  workspaces
+- Best suited for: Startups stitching together AI agents without heavy coding
+
+#### DeepSeek (AI models)
+
+- Focus: High-performance AI model access and orchestration
+- Notable features: Competitive pricing, advanced reasoning models, and a REST
+  API
+- Best suited for: Developers prioritising model quality and cost efficiency
+
+#### Dagster (data orchestration)
+
+- Focus: Data orchestration with asset-centric design
+- Notable features: Software-defined assets, observability, and CI-friendly
+  deployment
+- Best suited for: Data teams replacing ad-hoc scripts with governed pipelines
+
+#### Prefect Cloud (managed orchestration)
+
+- Focus: Managed workflow orchestration for Python-native flows
+- Notable features: Generous free developer tier, hosted UI, and deployment
+  automation
+- Best suited for: Teams who want Prefect observability without operating
+  infrastructure
 
 ---
 
 ## Best value analysis
 
-- **Best starter experience:** Make Core balances generous operations, visual tooling, and
-  transparent pricing for new automation teams.
-- **Most economical scale:** n8n self-hosted and Activepieces self-hosted provide unlimited
-  usage with infrastructure-only costs, ideal for engineering-led teams.
-- **Best for Microsoft tenants:** Power Automate leverages existing Microsoft 365
-  entitlements, reducing incremental spend for licensed users.
-- **Best AI coverage:** Wordware.ai and Gumloop package model access, data handling, and
-  security policies tailored for AI-heavy workloads.
+- **Best starter experience:** Make Core balances generous operations, visual
+  tooling, and transparent pricing for new automation teams.
+- **Most economical scale:** n8n self-hosted and Activepieces self-hosted
+  deliver unlimited usage with infrastructure-only costs.
+- **Best for Microsoft tenants:** Power Automate leverages existing Microsoft
+  365 entitlements to reduce incremental spend.
+- **Best AI coverage:** Wordware.ai and Gumloop package model access and
+  security guardrails for AI-heavy workloads.
 
 ---
 
