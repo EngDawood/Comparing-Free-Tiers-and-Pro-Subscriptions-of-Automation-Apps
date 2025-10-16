@@ -463,32 +463,41 @@ Key themes to track in 2025:
 
 ### Free webhook availability snapshot
 
-- **Make:** ✔️ Custom webhook triggers and modules are included on the free
-  1,000-operations plan.
-- **n8n (self-hosted):** ✔️ Unlimited webhooks because the OSS build exposes
-  HTTP and REST endpoints by default.
-- **Pipedream:** ✔️ HTTP triggers and REST endpoints remain available on the
-  free tier (subject to daily event quotas).
-- **Activepieces:** ✔️ Free plan users can capture inbound webhooks alongside
-  other triggers.
-- **IFTTT:** ✔️ The Webhooks service works on the free tier, but you are capped
-  at two active applets.
-- **Zoho Flow:** ✔️ Free organisations can fire webhook triggers, though rate
-  limits apply.
-- **Pabbly Connect:** ✔️ Every workflow can start with a webhook while staying
-  within the 100-task allowance.
-- **Windmill (self-hosted):** ✔️ HTTP triggers are unrestricted when you manage
-  the runtime yourself.
-- **Huginn:** ✔️ Agent endpoints act as webhooks with no metering beyond your
-  server resources.
-- **Zapier:** ❌ Webhooks by Zapier is a premium app and needs a paid plan.
+#### Hosted free tiers
+
+- **Make:** ✔️ Custom webhook triggers and modules ship with the free
+  1,000-operations allowance.
+- **Pipedream:** ✔️ HTTP triggers and REST endpoints work on the free tier,
+  subject to daily event quotas.
+- **Activepieces:** ✔️ Captures inbound webhooks on the free SaaS plan in
+  addition to scheduled triggers.
+- **IFTTT:** ✔️ The Webhooks service remains available, but only two applets can
+  be active.
+- **Zoho Flow:** ✔️ Webhook triggers fire on the free tier, although rate limits
+  apply.
+- **Pabbly Connect:** ✔️ Every workflow can start with a webhook inside the
+  100-task monthly allowance.
+
+#### Self-hosted deployments (infrastructure required)
+
+- **n8n self-hosted:** ✔️ Unlimited webhooks via HTTP nodes; you cover hosting,
+  TLS, and scaling.
+- **Activepieces self-hosted:** ✔️ Docker deployment exposes webhook triggers,
+  but you pay for servers and monitoring.
+- **Windmill:** ✔️ Self-managed instances allow unrestricted HTTP triggers;
+  runtime costs depend on your environment.
+- **Huginn:** ✔️ Agents expose webhook-style endpoints with no platform quotas,
+  limited only by your hardware.
+
+#### Free tiers without inbound webhooks
+
+- **Zapier:** ❌ Webhooks by Zapier is a premium app that requires a paid plan.
 - **Microsoft Power Automate:** ❌ HTTP request triggers sit behind premium
-  connectors.
-- **Bardeen:** ❌ No inbound webhooks; automation executes inside the browser.
-- **OttoKit:** ❌ Focuses on WordPress events and does not expose general web
-  hooks.
-- **Automate.io:** ⚠️ Platform discontinued (September 2022); webhook support
-  no longer available.
+  connector licensing.
+- **Bardeen:** ❌ Browser-focused automation; no inbound webhook support.
+- **OttoKit:** ❌ WordPress-specific triggers only; no generic webhooks.
+- **Automate.io:** ⚠️ Service discontinued in 2022; webhook support is no
+  longer available.
 
 > **Tip:** Providers adjust webhook access frequently—check the pricing or
 > quota page before committing critical workflows.
